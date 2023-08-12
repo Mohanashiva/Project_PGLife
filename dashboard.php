@@ -1,61 +1,26 @@
-<html>
+<?php
+    session_start();
+    require "includes/database_connect.php"
+?>
 
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dashboard or profile page</title>
 
-    <!--Bootstrap.min-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <!--Font-awesome - This CSS file will help you to create the icons in the modals, amenities section, etc.-->
-    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
-    <!--Google fonts - you can use the following CSS for the open sans font used in the web application.-->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-        rel="stylesheet" />
-    <!-- linking my css files -->
-    <link href="css/common.css" rel="stylesheet" />
-    <link href="css/dashboard.css" rel="stylesheet" />
 
+    <?php
+    include "includes/head_links.php";
+    ?>
+    
+    <link href="css/dashboard.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- creating header with sticky-top i.e.,fixed on top-->
-    <div class="header sticky-top">
-        <!-- creating navbar -->
-        <nav class="navbar navbar-expand-md navbar-light">
-            <!-- navbar element -->
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo.png" />
-            </a>
-            <!-- button that appears when collapsed -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
-                <!-- spans default three line - icon -->
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- content on RHS/collapse button -->
-
-            <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
-                <ul class="navbar-nav">
-                    <div class="nav-name">
-                        Hi shiva!
-                    </div>
-                    <li class="nav-item">
-                        <!-- using modal functionality for item-1-->
-                        <a class="nav-link" href="dashboard.php">
-                            <i class="fas fa-user"></i>Dashboard
-                        </a>
-                    </li>
-                    <div class="nav-vl"></div>
-                    <li class="nav-item">
-                        <!-- and item-2 -->
-                        <a class="nav-link" href="#">
-                            <i class="fas fa-sign-in-alt"></i>Logout
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+   <!-- including header using header -->
+   <?php
+    include "includes/header.php";
+    ?>
 
     <!-- breadcurmb code -->
     <nav aria-label="breadcrumb">
@@ -172,41 +137,9 @@
         </div>
     </div>
     <!-- end of elements -->
-    <!-- footer of page begin -->
-    <div class="footer">
-        <!-- footer-container and did css -->
-        <div class="page-container footer-container">
-            <!-- footer cities css -->
-            <div class="footer-cities">
-                <!-- applied flex to cities -->
-                <div class="footer-city">
-                    <!-- footer city - css -->
-                    <a href="property_list.php">PG in</a>
-                </div>
-                <div class="footer-city">
-                    <a href="property_list.php">PG in Mumbai</a>
-                </div>
-                <div class="footer-city">
-                    <a href="property_list.php">PG in Bangalore</a>
-                </div>
-                <div class="footer-city">
-                    <a href="property_list.php">PG in Hyderabad</a>
-                </div>
-            </div>
-            <!-- css for final text -->
-            <div class="footer-copyright">
-                © 2020 Copyright PG Life
-            </div>
-        </div>
-    </div>
-
-</body>
-
-
-<!-- to perform bootstrap functionality  -->
-<!-- necessary to add Bootstrap JavaScript file and jQuery script -->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <?php
+    include "includes/footer.php";
+    ?>
 <!-- end of html -->
 
 </html>
