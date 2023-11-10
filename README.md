@@ -3,14 +3,18 @@ welcome to PG life project
 it's a dynamic web application designed to find the best PG in Cities 
 here are some of the screenshots of the project 
 
-#techstack i've used: HTML,CSS,JS,BOOTSTRAP,PHP,MYSQL
+#techstack i've used: HTML,CSS,JS,BOOTSTRAP,PHP,MYSQL,AJAX
 
 OUTPUT:
-![Screenshot (300)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/58ecd9e9-db3f-4f8e-83d3-6b156c8befbf)
-![Screenshot (301)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/bfc9f520-941f-4d8b-97a8-b0f8fcdd3efc)
-![Screenshot (302)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/bf4f14fe-d98e-4c58-bf9c-9e6349c154ef)
-![Screenshot (303)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/df26cbfd-6405-45df-a4e3-afba86e17015)
-![Screenshot (304)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/f3865e6e-19ef-4017-a62b-4d08c6151d7a)
-![Screenshot (305)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/8c2c7bb6-2920-40e0-b0b5-35568956b9d0)
-![Screenshot (306)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/b36bbd88-0c45-4992-bd85-dda5d8033a98)
-![Screenshot (307)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/62a7e5a3-6149-4a4d-82fd-4e5addc36e7a)
+
+![Screenshot (332)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/69bacf9c-2cb5-4b1b-b26e-66ee69404a2d)
+![Screenshot (333)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/1603972e-8edb-492b-9567-0c235ace721a)
+![Screenshot (334)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/a859245a-fb73-47fa-9064-0471d259a264)
+![Screenshot (335)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/db02af13-f52b-4054-8119-abb03f0901bc)
+![Screenshot (336)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/b31e37ce-b3fd-49ad-8712-d7c5783f49a3)
+![Screenshot (337)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/bb1de409-6b26-4dd3-aeb1-c0cd70566d31)
+![Screenshot (338)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/2ffe629d-2bf5-46d8-ade4-e74e053db087)
+![Screenshot (339)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/10d76c1a-329f-4c3a-8117-1b47bd6778ad)
+![Screenshot (340)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/a537b6e3-18d8-4f2b-a6d3-0e30f50fb719)
+![Screenshot (341)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/fedab882-a1ab-44e5-b641-6b607f281af2)
+![Screenshot (342)](https://github.com/Mohanashiva/Project_PGLife/assets/106060739/64f2de03-e443-4b94-b910-ac35bda55a93)
